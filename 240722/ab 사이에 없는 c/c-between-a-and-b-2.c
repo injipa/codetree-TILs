@@ -7,13 +7,13 @@ int main() {
     bool satisfied=false;
 
     for(int i=a; i<=b; i++){
-        if(i%c!=0)
+        if(i%c==0)
         satisfied=true;
     }
 
     if(satisfied==true)
-    printf("YES");
-    else
     printf("NO");
+    else
+    printf("YES");
     return 0;
 }
