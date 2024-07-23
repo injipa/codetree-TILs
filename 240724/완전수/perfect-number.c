@@ -3,10 +3,10 @@
 int main() {
     int a, b;
     scanf("%d%d", &a,&b);
-    int sum = 0;
     int cnt=0;;
    
   for(int i=a; i<=b; i++){
+    int sum=0;
     for(int j=1; j<i; j++){
         if(i%j==0)
         sum+=j;
