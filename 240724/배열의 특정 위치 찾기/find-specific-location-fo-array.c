@@ -14,7 +14,7 @@ int main() {
 
         if((i+1)%3==0)
         sum1+=arr[i];
-        avg=sum1/3;
+        avg=(double)sum1/3;
     }
 
     printf("%d %.1lf", sum, avg);
