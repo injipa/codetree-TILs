@@ -6,7 +6,7 @@ int main() {
     int cnt=0;
 
     for(int i=0; i<a; i++){
-        int c[10];
+        int c[a];
         scanf("%d", &c[i]);
 
         if(c[i]==b){
