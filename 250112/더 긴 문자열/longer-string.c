@@ -10,9 +10,9 @@ int main() {
 
     if(strlen(a1)>strlen(a2))
         printf("Coding %d", strlen(a1));
-        else if(strlen(a2)>strlen(a1))
+    if(strlen(a2)>strlen(a1))
         printf("Coding %d", strlen(a2));
-        else
+    if(strlen(a1)==strlen(a2))
         printf("same");
     
 
