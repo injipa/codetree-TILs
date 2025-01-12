@@ -2,16 +2,16 @@
 #include <string.h>
 
 int main() {
-    char a1[101];
-    char a2[101];
+    char a1[21];
+    char a2[21];
 
     scanf("%s", a1);
     scanf("%s", a2);
 
     if(strlen(a1)>strlen(a2))
-        printf("Coding %d", strlen(a1));
+        printf("%s %d", a1,strlen(a1));
     if(strlen(a2)>strlen(a1))
-        printf("Coding %d", strlen(a2));
+        printf("%s %d", a2,strlen(a2));
     if(strlen(a1)==strlen(a2))
         printf("same");
     
