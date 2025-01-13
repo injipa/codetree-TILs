@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    tot_str[tot_index]='\n';
+    tot_str[tot_index]='\0';
     printf("%s", tot_str);
 
 
