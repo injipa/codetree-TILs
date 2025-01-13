@@ -2,7 +2,7 @@
 #include <string.h>
 int main() {
     int a;
-    char str[10][21];
+    char str[21][21];
     char b;
     int cnt=0;
     int len=0;
@@ -21,11 +21,8 @@ int main() {
         }
     }
 
-    if(cnt>0){
     printf("%d %.2lf", cnt, (double)len/cnt);
-    }else{
-        printf("0 0.00");
-    }
+
 
 
     return 0;
