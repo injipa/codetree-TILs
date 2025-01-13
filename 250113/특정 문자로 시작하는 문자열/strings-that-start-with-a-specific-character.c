@@ -21,8 +21,11 @@ int main() {
         }
     }
 
+    if(cnt>0){
     printf("%d %.2lf", cnt, (double)len/cnt);
-
+    }else{
+        printf("0 0.00");
+    }
 
 
     return 0;
