@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include <ctype.h>
 
 int main() {
@@ -8,7 +7,7 @@ int main() {
     
 
     for(int i=0; str[i]!='\0'; i++){
-        if(('A'<=str[i]&&str[i]<='z')||('a'<=str[i]&&str[i]<='z'))
+        if(('A'<=str[i]&&str[i]<='Z')||('a'<=str[i]&&str[i]<='z'))
         {
             printf("%c", tolower(str[i]));
         }
